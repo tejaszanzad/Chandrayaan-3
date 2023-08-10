@@ -1,0 +1,14 @@
+package com.incubyte;
+
+public class Coordinate {
+	int x, y, z;
+	String direction;
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.incubyte;
+
+import static org.junit.Assert.*;
+import com.incubyte.Coordinate;
+import org.junit.Test;
+
+public class LunarCraftTest {
+
+	@Test
+	public void test() {
+		Coordinate coordinate = new Coordinate(0,0,0,"N");
+		fail("Not yet implemented");
+		
+	}
+
+}

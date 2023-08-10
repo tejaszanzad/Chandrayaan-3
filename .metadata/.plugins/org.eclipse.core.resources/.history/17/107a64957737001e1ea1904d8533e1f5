@@ -1,0 +1,30 @@
+package com.incubyte;
+import com.incubyte.Coordinate;
+
+public class LunarCraft {
+	public static calculateCoordinate ( String command, Coordinate coordinate) {
+
+		if (command ===  "f" ||  command === "b"){
+		string direction = coordinate.direction;
+		int changedCoordinateBy command = "F" ? 1:-1
+
+		if (direction === "N" || direction === "S") {
+
+		    coordinate.y  = coordinate.y + (changedCoordinateBy)
+
+		} else if (direction === "E" || direction === "W"){
+		coordinate.x =  coordinate.x  +(changedCoordinateBy)
+		} else if (direction === "U" || direction = "D") {
+		coordinate.z = coordinate.z + (changedCoordinateBy);
+		 }
+
+		}
+
+		 return coordinate;
+		}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

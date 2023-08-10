@@ -1,0 +1,27 @@
+package com.incubyte;
+
+import static org.junit.Assert.*;
+import com.incubyte.*;
+import org.junit.Test;
+
+public class LunarCraftTest {
+
+	@Test
+	public void testCalculateCoordinateForForwardFromNorthDirection() {
+		Coordinate coordinate = new Coordinate(0,0,0,"N");
+		coordinate = LunarCraft.calculateCoordinate("f", coordinate);
+		 assertTrue(coordinate.x == 0);
+		 assertTrue(coordinate.y == 1);
+		 assertTrue(coordinate.z == 0);
+	}
+	
+	@Test
+	public void testCalculateCoordinateForForwardFromSouthDirection() {
+		Coordinate coordinate = new Coordinate(1,1,1,"S");
+		coordinate = LunarCraft.calculateCoordinate("f", coordinate);
+		 assertTrue(coordinate.x == 1);
+		 assertTrue(coordinate.y == 1);
+		 assertTrue(coordinate.z == 1);
+	}
+
+}

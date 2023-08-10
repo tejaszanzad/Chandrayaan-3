@@ -1,0 +1,18 @@
+package com.incubyte;
+
+import static org.junit.Assert.*;
+import com.incubyte.*;
+import org.junit.Test;
+
+public class LunarCraftTest {
+
+	@Test
+	public void testCalculateCoordinate() {
+		Coordinate coordinate = new Coordinate(0,0,0,"N");
+		coordinate = LunarCraft.calculateCoordinate("f", coordinate);
+		 assertTrue(coordinate.x == 0);
+		 assertTrue(coordinate.y == 1);
+		 assertTrue(coordinate.z == 0);
+	}
+
+}
