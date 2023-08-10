@@ -1,12 +1,7 @@
 package com.incubyte;
-import java.util.HashMap;
-import java.util.Map;
-
 import com.incubyte.Coordinate;
 
-
 public class LunarCraft {
-	
 	
 	public static Coordinate calculateCoordinate(String command, Coordinate coordinate) {
 
@@ -32,11 +27,6 @@ public class LunarCraft {
 
 		 return coordinate;
     }
-	
-	public static Coordinate getNewCoordinatePosition (String[] commandArr,Coordinate coordinate) {
-
-		return coordinate;
-	}  
 	
 	
 	public static void main(String[] args) {
