@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LunarCraftTest" project="Chandrayaan3" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.incubyte.LunarCraftTest" time="0.0">
+    <testcase name="testCalculateCoordinateForForwardFromSouthDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForForwardFromEastDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForForwardFromNorthDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -73,9 +73,9 @@ public class LunarCraftTest {
 	public void testCalculateCoordinateForBackwardFromSouthDirection() {
 		Coordinate coordinate = new Coordinate(1,1,1,"S");
 		coordinate = LunarCraft.calculateCoordinate("b", coordinate);
-		 assertTrue(coordinate.x == 1);
-		 assertTrue(coordinate.y == 0);
-		 assertTrue(coordinate.z == 1);
+		 assertTrue(coordinate.x == 0);
+		 assertTrue(coordinate.y == -1);
+		 assertTrue(coordinate.z == 0);
 	}
 	
 	@Test

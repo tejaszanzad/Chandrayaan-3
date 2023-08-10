@@ -74,7 +74,7 @@ public class LunarCraftTest {
 		Coordinate coordinate = new Coordinate(1,1,1,"S");
 		coordinate = LunarCraft.calculateCoordinate("b", coordinate);
 		 assertTrue(coordinate.x == 1);
-		 assertTrue(coordinate.y == 0);
+		 assertTrue(coordinate.y == -2);
 		 assertTrue(coordinate.z == 1);
 	}
 	
