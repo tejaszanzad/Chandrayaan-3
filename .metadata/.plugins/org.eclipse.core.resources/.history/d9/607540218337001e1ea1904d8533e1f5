@@ -1,0 +1,38 @@
+package com.incubyte;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public final class DirectionHelper {
+	public static final Map<String, String> directionMapping = new HashMap<String, String>();
+	static{
+		directionMapping.put("N-R", "E");
+		directionMapping.put("N-L", "W");
+		directionMapping.put("E-R", "S");
+		directionMapping.put("E-L", "N");
+		directionMapping.put("S-R", "W");
+		directionMapping.put("S-L", "E");
+		directionMapping.put("W-R", "N");
+		directionMapping.put("W-L", "S");
+		
+		directionMapping.put("N-U-R", "E");
+		directionMapping.put("N-U-L", "W");
+		directionMapping.put("E-U-R", "S");
+		directionMapping.put("E-U-L", "N");
+		directionMapping.put("S-U-R", "W");
+		directionMapping.put("S-U-L", "E");
+		directionMapping.put("W-U-R", "N");
+		directionMapping.put("W-U-L", "S");
+		
+		
+		directionMapping.put("N-D-R", "E");
+		directionMapping.put("N-D-L", "W");
+		directionMapping.put("E-D-R", "S");
+		directionMapping.put("E-D-L", "N");
+		directionMapping.put("S-D-R", "W");
+		directionMapping.put("S-D-L", "E");
+		directionMapping.put("W-D-R", "N");
+		directionMapping.put("W-D-L", "S");
+	
+	}
+}

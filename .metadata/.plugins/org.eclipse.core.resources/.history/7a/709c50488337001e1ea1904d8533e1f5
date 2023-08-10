@@ -152,15 +152,4 @@ public class LunarCraftTest {
 		 assertTrue(coordinate.y == 0);
 		 assertTrue(coordinate.z == 2);
 	}
-	
-	@Test
-	public void testGetNewCoordinatePositionForSetOfCommands3() {
-		Coordinate coordinate = new Coordinate(0,0,0,"N");
-		String[] commmands = {"f", "r", "u","b","l"};
-		coordinate = LunarCraft.getNewCoordinatePosition(commmands, coordinate);
-		 assertTrue(coordinate.direction.equalsIgnoreCase("W"));
-		 assertTrue(coordinate.x == 0);
-		 assertTrue(coordinate.y == 1);
-		 assertTrue(coordinate.z == -1);
-	}
 }

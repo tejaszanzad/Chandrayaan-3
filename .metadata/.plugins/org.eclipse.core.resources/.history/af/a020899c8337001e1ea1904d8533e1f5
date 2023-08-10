@@ -155,7 +155,7 @@ public class LunarCraftTest {
 	
 	@Test
 	public void testGetNewCoordinatePositionForSetOfCommands3() {
-		Coordinate coordinate = new Coordinate(0,0,0,"N");
+		Coordinate coordinate = new Coordinate(-1,1,2,"N");
 		String[] commmands = {"f", "r", "u","b","l"};
 		coordinate = LunarCraft.getNewCoordinatePosition(commmands, coordinate);
 		 assertTrue(coordinate.direction.equalsIgnoreCase("W"));

@@ -15,10 +15,13 @@ public final class DirectionHelper {
 		directionMapping.put("W-R", "N");
 		directionMapping.put("W-L", "S");
 		
-		directionMapping.put("U-R", "E");
-		directionMapping.put("U-L", "W");
-		directionMapping.put("D-R", "N");
-		directionMapping.put("D-L", "S");
-	
-	}
+		directionMapping.put("N-U-R", "E");
+		directionMapping.put("N-U-L", "W");
+		directionMapping.put("E-U-R", "S");
+		directionMapping.put("E-U-L", "N");
+		directionMapping.put("S-U-R", "W");
+		directionMapping.put("S-U-L", "E");
+		directionMapping.put("W-U-R", "N");
+		directionMapping.put("W-U-L", "S");
+			}
 }

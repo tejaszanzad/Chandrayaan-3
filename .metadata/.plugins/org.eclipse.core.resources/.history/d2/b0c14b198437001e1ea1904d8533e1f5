@@ -38,7 +38,7 @@ public class LunarCraft {
 			 if(command.equalsIgnoreCase("f") || command.equalsIgnoreCase("b")) { 
 				 coordinate = LunarCraft.calculateCoordinate(command,  coordinate);
 			} else if(command.equalsIgnoreCase("u") || command.equalsIgnoreCase("b")){
-				coordinate.direction = command.toUpperCase();
+				coordinate.direction = command;
 			}else {
 			 coordinate.direction = DirectionHelper.directionMapping.get(coordinate.direction.toUpperCase()+"-"+command.toUpperCase());
 			}
