@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LunarCraftTest" project="Chandrayaan3" tests="15" started="15" failures="0" errors="0" ignored="0">
+  <testsuite name="com.incubyte.LunarCraftTest" time="0.0">
+    <testcase name="testGetNewCoordinatePositionForSetOfCommands1" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForForwardFromUpDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForBackwardFromUpDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForBackwardFromWestDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForBackwardFromSouthDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForForwardFromSouthDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForBackwardFromEastDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForForwardFromWestDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForBackwardFromDownDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForForwardFromEastDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForForwardFromDownDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForBackwardFromNorthDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testGetNewCoordinatePositionFromWestToRight" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testCalculateCoordinateForForwardFromNorthDirection" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+    <testcase name="testGetNewCoordinatePositionFromNorthToRight" classname="com.incubyte.LunarCraftTest" time="0.0"/>
+  </testsuite>
+</testrun>

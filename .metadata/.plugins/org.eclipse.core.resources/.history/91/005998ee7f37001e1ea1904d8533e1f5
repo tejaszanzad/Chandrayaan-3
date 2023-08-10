@@ -35,7 +35,7 @@ public class LunarCraft {
 	
 	public static Coordinate getNewCoordinatePosition (String[] commandArr,Coordinate coordinate) {
 		for (String command : commandArr) {
-			 if(command.equalsIgnoreCase("f") || command.equalsIgnoreCase("b")) { 
+			 if(coordinate.direction.equalsIgnoreCase("f") || coordinate.direction.equalsIgnoreCase("b")) { 
 				 coordinate = LunarCraft.calculateCoordinate(command,  coordinate);
 			} else{
 			 coordinate.direction = DirectionHelper.directionMapping.get(coordinate.direction.toUpperCase()+"-"+command.toUpperCase());

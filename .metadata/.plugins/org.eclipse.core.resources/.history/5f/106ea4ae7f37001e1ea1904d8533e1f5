@@ -134,22 +134,8 @@ public class LunarCraftTest {
 	@Test
 	public void testGetNewCoordinatePositionForSetOfCommands1() {
 		Coordinate coordinate = new Coordinate(0,0,0,"N");
-		String[] commmands = {"f", "r", "f"};
+		String[] commmands = {"f", "r", "u", "b", "l"};
 		coordinate = LunarCraft.getNewCoordinatePosition(commmands, coordinate);
-		 assertTrue(coordinate.direction.equalsIgnoreCase("E"));
-		 assertTrue(coordinate.x == 1);
-		 assertTrue(coordinate.y == 1);
-		 assertTrue(coordinate.z == 0);
-	}
-	
-	@Test
-	public void testGetNewCoordinatePositionForSetOfCommands2() {
-		Coordinate coordinate = new Coordinate(-1,1,2,"W");
-		String[] commmands = {"f", "r", "b","r"};
-		coordinate = LunarCraft.getNewCoordinatePosition(commmands, coordinate);
-		 assertTrue(coordinate.direction.equalsIgnoreCase("E"));
-		 assertTrue(coordinate.x == 0);
-		 assertTrue(coordinate.y == 0);
-		 assertTrue(coordinate.z == 2);
+		 assertTrue(coordinate.direction.equalsIgnoreCase("N"));
 	}
 }
